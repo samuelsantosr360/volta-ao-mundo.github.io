@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    /* Gradiente padrão para PC */
     background: linear-gradient(90deg,
             rgba(64, 0, 0, 0.1) 0%,
             rgba(255, 255, 255, 1) 15%,
@@ -10,8 +9,6 @@ body {
     min-height: 100vh;
     
 }
-
-/* Ajuste específico para Celular (Telas menores que 768px) */
 @media (max-width: 768px) {
     body {
         
@@ -37,8 +34,6 @@ body {
     font-weight: 700;
     text-decoration: underline dotted red 2px;
 }
-
-/* --- SEÇÃO HERO & TYPING --- */
 .foco-mapa {
     opacity: 0.1;
     margin: 0 auto;
@@ -46,11 +41,9 @@ body {
 
 .typing-box {
     font-size: clamp(1.5rem, 5vw, 3rem);
-    /* Ajusta o tamanho da fonte conforme a tela */
     color: #adadad;
     font-weight: 700;
     white-space: nowrap;
-    /* Evita que o texto quebre no meio da animação */
 }
 
 .typing {
@@ -70,7 +63,7 @@ body {
 
 .botao-flutuante {
     position: fixed;
-    top: 30px;
+    top: 100px;
     left: -90px;
     background: #000;
     color: #fff;
