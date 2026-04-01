@@ -79,37 +79,6 @@ body {
 
 
 
-.hero-section {
-    font-size: 0px;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    padding: 50px 20px;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;     
-    font-size: 100px;
-}
-
-.hero-title {    
-    font-weight: 900;   
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    background-image: url('https://thumbs.web.sapo.io/?W=770&H=0&delay_optim=1&webp=1&epic=YWZlEzTzsYunnid1PL7RYiA4BZk2GbYtcz3u/uQMCB9t7pF6N3IM/w1YSOeMIChtGsu0hKzSsrBcLe7aCMvwggQru0P9Z67mImukIak18EmVxF4=');
-    background-size: cover;
-    background-position: center;
-    color: transparent;
-    background-clip: text; 
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    letter-spacing: 0.1em;
-    animation: fadeIn 1s ease;
-}
-
-
-
-
 .content-section {
     background: rgba(255, 255, 255, 0.85);
     padding: 30px 40px;

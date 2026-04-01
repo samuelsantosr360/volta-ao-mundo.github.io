@@ -38,23 +38,23 @@ body {
 }
 
 
-.botao-flutuante {
-    position: fixed;
-    top: 100px;
-    left: -90px;
-    background: #000;
-    color: #fff;
-    width: 140px;
-    height: 45px;
-    border-radius: 0 25px 25px 0;
-    text-align: right;
-    padding-right: 20px;
-    line-height: 45px;
-    cursor: pointer;
-    z-index: 1050;
-    transition: 0.3s;
-}
+    .botao-flutuante {
+        position: fixed;
+        top: 100px;
+        left: -90px;
+        background: #000;
+        color: #fff;
+        width: 140px;
+        height: 45px;
+        border-radius: 0 25px 25px 0;
+        text-align: right;
+        padding-right: 20px;
+        line-height: 45px;
+        cursor: pointer;
+        z-index: 1050;
+        transition: 0.3s;
+    }
 
-.botao-flutuante:hover {
-    left: -80px;
-}
+    .botao-flutuante:hover {
+        left: -80px;
+    }
